@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100vh;
+    background-image: linear-gradient(to right, #175217, #000);
+
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+.container ul li:hover { 
+    text-decoration: underline;
+    color: white;
+}
+
+.container {
+    width: 95%;
+    height: 95%;
+    background-image: linear-gradient( to right, #1a5d1abb 30%, #000000c9), url(/imgs/background3.jpg) ;
+    background-size: cover;
+
+}
+
+.container:hover {
+  background-image: linear-gradient( to right, #1a5d1acf , transparent), url(/imgs/background3.jpg);
+
+}
+.container header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.container ul { 
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    font-size: 18px;
+}
+
+
+.logo { 
+    font-size: 32px;
+    display: flex;
+    color: white;
+}
+
+.logo i { 
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 36px;
+
+}
+
+.container section { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 100px 10px;
+    width: 50%;
+    font-size: 24px;
+    color: white;
+
+
+}
+section h2 { 
+    font-weight: bold;
+    text-align: center;
+}
+
+section p { 
+    margin: 20px;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 320px;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+section button {
+    font-size: 24px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    -webkit-border-radius: 20px;
+}
+
+section button:hover { 
+    border-color: white;
+    color: white;
+    background-color: transparent;
+}
