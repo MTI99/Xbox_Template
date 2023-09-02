@@ -18,7 +18,6 @@ body {
     text-transform: uppercase;
     height: 100vh;
     background-image: linear-gradient(to right, #175217, #000);
-
 }
 
 a { 
@@ -33,13 +32,13 @@ a {
 .container {
     width: 95%;
     height: 95%;
-    background-image: linear-gradient( to right, #1a5d1abb 30%, #000000c9), url(imgs/background3.jpg) ;
+    background-image: linear-gradient( to right, #1a5d1abb 30%, #000000c9), url(../imgs/background3.jpg);
     background-size: cover;
 
 }
 
 .container:hover {
-  background-image: linear-gradient( to right, #1a5d1acf , transparent), url(imgs/background3.jpg);
+  background-image: linear-gradient( to right, #1a5d1acf , transparent), url(../imgs/background3.jpg);
 
 }
 .container header{ 
